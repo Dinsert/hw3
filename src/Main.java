@@ -52,22 +52,22 @@ public class Main {
         byte forTwentyMinutes = 20;
 
         int machinePerformancePerTwentyMinutes = machinePerformancePerOneMinute * forTwentyMinutes;
-        System.out.println("За 20 минут машина произвела " + machinePerformancePerTwentyMinutes + " штук бытлок");
+        System.out.println("За 20 минут машина произвела " + machinePerformancePerTwentyMinutes + " штук бутылок");
 
         short forDay = 1440;
 
         int machinePerformanceForDay = machinePerformancePerOneMinute * forDay;
-        System.out.println("За 20 минут машина произвела " + machinePerformanceForDay + " штук бытлок");
+        System.out.println("В сутки машина произвела " + machinePerformanceForDay + " штук бутылок");
 
         short forThreeDays = 4320;
 
         int machinePerformanceForThreeDays = machinePerformancePerOneMinute * forThreeDays;
-        System.out.println("За 20 минут машина произвела " + machinePerformanceForThreeDays + " штук бытлок");
+        System.out.println("За 3 дня машина произвела " + machinePerformanceForThreeDays + " штук бутылок");
 
         int forMonth = 43200;
 
         long machinePerformanceForMonth = machinePerformancePerOneMinute * forMonth;
-        System.out.println("За 20 минут машина произвела " + machinePerformanceForMonth + " штук бытлок");
+        System.out.println("За 1 месяц машина произвела " + machinePerformanceForMonth + " штук бутылок");
 
 
         byte totalCansOfPaint = 120;
@@ -98,7 +98,7 @@ public class Main {
 
         byte iceCream = 2;
 
-        byte weightIceCream = 50;
+        byte weightIceCream = 100;
 
         int weightIceCreams = iceCream * weightIceCream;
 
